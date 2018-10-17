@@ -1,0 +1,17 @@
+#firstButton{
+  background-color: black;
+  color: white;
+  padding: 30px 50px;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-color: black;
+  display: inline-block;
+  font-size: 25px;
+  float: left;
+  border: 2px solid black;
+  font-style: italic;
+}
+#firstButton:hover{
+  background-color: white;
+  color: black;
+}
