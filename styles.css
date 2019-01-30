@@ -1,6 +1,7 @@
 * {
-  font-family: "Comic Neue", sans-serif;
-  background: white;
+  font-family: "Comic Neue";
+  background: rgb(120, 120, 120);
+  color: white;
 }
 .wrapper {
   display: grid;

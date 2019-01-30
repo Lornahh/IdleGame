@@ -1,6 +1,7 @@
 * {
   font-family: "Comic Neue";
-  background: white;
+  background: rgb(120, 120, 120);
+  color: white;
 }
 .wrapper {
   display: -ms-grid;
