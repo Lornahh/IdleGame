@@ -22,10 +22,10 @@ window.onload=function(){
 
 
  elem.innerText = `Click here for the first upgrade! The current price
- is ${priceof1.toFixed(0)} and gives you 1 click per second.`;
+ is ${priceof1} and gives you 1 click per second.`;
 
  secondUpgradeText.innerText = `Click here for the second upgrade! The current price
- is ${priceof2.toFixed(0)} and gives you 3 click per second.`;
+ is ${priceof2} and gives you 3 click per second.`;
 }
 function currencyBoxSet(){
  x+=1;
@@ -43,7 +43,7 @@ function firstUpgradeFunction(){
   currencyBox.innerHTML=x;
   let elem = Array.from(document.querySelectorAll("#firstUpgrade"))[0];
   elem.innerText = `Click here for the first upgrade! The current price is
-  ${priceof1update.toFixed(0)} and will give you 1 click per second.`;
+  ${priceof1update} and will give you 1 click per second.`;
 }
 else{
   alert("You do not have enough currency!");
